@@ -14,7 +14,7 @@ class profile::ntp (
     contain ::ntp
   }
   else {
-    # Your custom code here...
+    notice('hello')
   }
 
 }
