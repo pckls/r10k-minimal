@@ -5,6 +5,6 @@
 #
 class role::common {
 
-  contain profile::ntp
+  contain profile::common
 
 }
